@@ -2,6 +2,6 @@ pipeline:
   build:
     image: node:boron
     commands:
-      - yarn install
+      - yarn --verbose install
         #- yarn run --silent prettier -l good_file.js
       - yarn run --silent eslint good_file.js
